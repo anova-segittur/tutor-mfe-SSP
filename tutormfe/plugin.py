@@ -61,7 +61,7 @@ CORE_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
         "port": 1994,
     },
     "learning": {
-        "repository": "https://github.com/IosifSc/frontend-app-learning-SSP",
+        "repository": "https://github.com/anova-segittur/frontend-app-learning-SSP",
         "refs": "https://api.github.com/repos/openedx/frontend-app-learning/git/refs/" + gh_refs_path(),
         "port": 2000,
     },
