@@ -24,9 +24,9 @@ ABOUT = load_about()
 setup(
     name="tutor-mfe-SSP",
     version=ABOUT["__package_version__"],
-    url="https://github.com/overhangio/tutor-mfe-SSP",
+    url="https://github.com/anova-segittur/tutor-mfe-SSP",
     project_urls={
-        "Code": "https://github.com/overhangio/tutor-mfe",
+        "Code": "https://github.com/anova-segittur/tutor-mfe-SSP",
         "Issue tracker": "https://github.com/overhangio/tutor-mfe/issues",
         "Community": "https://discuss.openedx.org/tag/tutor",
     },
