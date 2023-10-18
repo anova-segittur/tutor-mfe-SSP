@@ -109,7 +109,7 @@ tutor_hooks.Filters.ENV_TEMPLATE_VARIABLES.add_items(
 tutor_hooks.Filters.IMAGES_BUILD.add_item(
     (
         "mfe",
-        os.path.join("plugins", "mfe-SSP", "build", "mfe"),
+        os.path.join("plugins", "mfe", "build", "mfe"),
         "{{ MFE_DOCKER_IMAGE }}",
         (),
     )
