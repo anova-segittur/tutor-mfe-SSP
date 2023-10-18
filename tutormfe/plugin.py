@@ -90,7 +90,7 @@ def iter_mfes() -> t.Iterable[tuple[str, MFE_ATTRS_TYPE]]:
     """
     Yield:
 
-        (name, dict)
+        (name, dict).
     """
     yield from MFE_APPS.apply({}).items()
 
@@ -109,7 +109,7 @@ tutor_hooks.Filters.ENV_TEMPLATE_VARIABLES.add_items(
 tutor_hooks.Filters.IMAGES_BUILD.add_item(
     (
         "mfe",
-        os.path.join("plugins", "mfe", "build", "mfe"),
+        os.path.join("plugins", "mfe-SSP", "build", "mfe"),
         "{{ MFE_DOCKER_IMAGE }}",
         (),
     )
