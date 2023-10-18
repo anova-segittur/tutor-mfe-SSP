@@ -62,7 +62,7 @@ CORE_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
     },
     "learning": {
         "repository": "https://github.com/anova-segittur/frontend-app-learning-SSP",
-        "refs": "https://api.github.com/repos/openedx/frontend-app-learning/git/refs/" + gh_refs_path(),
+        "refs": "https://api.github.com/repos/anova-segittur/frontend-app-learning-SSP/git/refs/" + gh_refs_path(),
         "port": 2000,
     },
     "ora-grading": {
