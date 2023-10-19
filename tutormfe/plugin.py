@@ -51,8 +51,8 @@ CORE_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
         "port": 2001,
     },
     "discussions": {
-        "repository": "https://github.com/openedx/frontend-app-discussions",
-        "refs": "https://api.github.com/repos/openedx/frontend-app-discussions/git/refs/" + gh_refs_path(),
+        "repository": "https://github.com/anova-segittur/frontend-app-discussions-SSP",
+        "refs": "https://api.github.com/repos/anova-segittur/frontend-app-discussions-SSP/git/refs/" + gh_refs_path(),
         "port": 2002,
     },
     "gradebook": {
