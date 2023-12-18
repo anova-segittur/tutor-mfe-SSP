@@ -53,6 +53,7 @@ CORE_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
     "discussions": {
         "repository": "https://github.com/anova-segittur/frontend-app-discussions-SSP",
         "refs": "https://api.github.com/repos/anova-segittur/frontend-app-discussions-SSP/git/refs/" + gh_refs_path(),
+        "version": "open-release/palm.2",
         "port": 2002,
     },
     "gradebook": {
@@ -63,6 +64,7 @@ CORE_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
     "learning": {
         "repository": "https://github.com/anova-segittur/frontend-app-learning-SSP",
         "refs": "https://api.github.com/repos/anova-segittur/frontend-app-learning-SSP/git/refs/" + gh_refs_path(),
+        "version": "open-release/palm.2",
         "port": 2000,
     },
     "ora-grading": {
@@ -73,6 +75,7 @@ CORE_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
     "profile": {
         "repository": "https://github.com/anova-segittur/frontend-app-profile-SSP",
         "refs": "https://api.github.com/repos/anova-segittur/frontend-app-profile-SSP/git/refs/" + gh_refs_path(),
+        "version": "open-release/palm.2",
         "port": 1995,
     },
 }
